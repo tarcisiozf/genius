@@ -1,0 +1,76 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.toy {
+	width: 600px;
+	height: 600px;
+	background: black;
+	border-radius: 100%;
+	margin: 50px auto;
+}
+
+.button {
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin: 25px;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 0 20px #000000;
+	   -moz-box-shadow: inset 0 0 20px #000000;
+			box-shadow: inset 0 0 20px #000000;
+	transition: 0.2s;
+}
+
+.bt_green {
+	background-color: green;
+	border-top-left-radius: 100%;
+}
+
+.bt_red {
+	background-color: red;
+	border-top-right-radius: 100%;
+}
+
+.bt_yellow {
+	background-color: yellow;
+	border-bottom-left-radius: 100%;
+}
+
+.bt_blue {
+	background-color: blue;
+	border-bottom-right-radius: 100%;
+}
+
+.bt_start {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	color: #fff;
+	position: absolute;
+	background-color: #000;
+	left: 50%;
+	top: 50%;
+	font-family: Verdana;
+	font-size: 26px;
+	text-align: center;
+	line-height: 200px;
+	margin-left: -100px;
+	margin-top: -130px;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 0 20px #303030;
+	   -moz-box-shadow: inset 0 0 20px #303030;
+			box-shadow: inset 0 0 20px #303030;
+}
+
+.bt_light, .bt_start:hover {
+	-webkit-box-shadow: inset 0 0 40px #FFF;
+	   -moz-box-shadow: inset 0 0 40px #FFF;
+			box-shadow: inset 0 0 40px #FFF;
+}
